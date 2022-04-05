@@ -1,0 +1,31 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: #293264;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome-description {
+    color: #293264;
+}
+
+.start-btn {
+    width: 150px;
+    height: 50px;
+    background-color: #4D5B8E;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-family: Karla;
+}
+
