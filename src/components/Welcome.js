@@ -2,8 +2,6 @@ import React from 'react';
 import './Welcome.css'
 import { Link } from 'react-router-dom'
 
-// https://opentdb.com/api_config.php
-// https://opentdb.com/api.php?amount=5&type=multiple
 // https://www.figma.com/file/3eWIVEDcxcJJaPCZtprKkx/Quizzical-App-(Copy)?node-id=0%3A1
 
 const Welcome = () => {

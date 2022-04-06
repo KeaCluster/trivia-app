@@ -41,11 +41,12 @@
 }
 
 .answer.selected {
-    background: #D6DBF5;
+    background-color: #D6DBF5;
 }
 
 .answer:hover {
-    box-shadow: 1px 2px #888888;
+    box-shadow: 1px 1px #a9a9a9;
+    cursor: pointer;
 }
 
 .btn-container {
