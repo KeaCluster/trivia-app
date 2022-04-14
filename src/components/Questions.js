@@ -5,7 +5,6 @@ import './Questions.css'
 // Selectable options
 // Check correct answers
 // Give points?
-// Cleanup html entities when fetch is made
 
 
 const Questions = () => {
@@ -20,8 +19,9 @@ const Questions = () => {
     const questions = allQuestions.map(e => {
         const arr = e.incorrectAnswers.concat(e.correctAnswer);
         const randArr = arr.sort(() => Math.random() - 0.4);
+        randArr.selected = false;
         const options = randArr.map(e => {
-            return (<div className='answer' key={nanoid()}>{e}</div>)
+            return (<div className={e.selected ? "answer selected" : "answer"} key={nanoid()}>{e}</div>)
         })
         console.log(options)
 
